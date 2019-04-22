@@ -1,0 +1,603 @@
+﻿body, html
+{
+    height: 100%;
+    margin: 0;
+    padding:  0;
+    overflow-style: auto;
+}
+
+rightColhtml {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p 
+{
+    color:  #FFFFFF;
+    text-align: left;
+}
+
+li 
+{
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+} 
+
+.Indent
+{
+    margin-left: 40px;
+    font-size: 1.2em;
+}
+.logged
+{
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-weight:  bold;
+}
+img.style3
+{
+    margin-top: 40px;
+    margin-left:  40px;        
+    width:  100px;
+}
+
+img.Thumbnail
+{
+    width: 100px;
+}
+
+body {
+    /*background-color:  #ff6a00; */
+    background-image: url("../Images/SiteBackground.jpg");
+    /*color: #434343; */
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+table#MasterTable
+{
+    margin-left:0; 
+    margin-right:0;
+    margin-bottom: 30px;
+    border: 0;
+    border-color:  white;
+}
+
+td.Label
+{
+    width: 120px;
+    height:  auto;
+    vertical-align: middle;
+    text-align:  right;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  red;
+    padding-top: 12px;
+    background-color: #FFFFFF;
+    
+}
+
+.ErrorText
+{
+    font-family:  'Segoe UI';
+    font-size: 1em;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:  0px;
+    margin-right:  0px;
+    text-align: center;    
+}
+td.Header
+    {
+    width: 20px;
+    height:  auto;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  red;
+    background-color: #3f83b8;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+
+p.Header
+{
+    font-family:  'Segoe UI';
+    font-size: 0.9em;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:  8px;
+    text-align: center;
+}
+
+td.Data
+    {
+    width: 1px;
+    white-space: nowrap;
+    height:  auto;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  white;
+    background-color:  #f7f4f4;
+    padding-left: 4px;
+    padding-right:  4px;
+    }
+
+p.Data
+{
+    font-family:  'Segoe UI';
+    font-size: 0.9em;
+    color: #212020 ;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+td#leftCol
+    {
+    width: 80px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  red;
+    }
+
+td#rightCol
+    {
+    min-width: 800px;
+    width: 800px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  red;
+    }
+
+td.rightCol
+    {
+    min-width: 800px;
+    width: 800px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 0px;
+    border-color:  yellow;
+    }
+
+td#menuitem
+{
+    width: 180px;
+}
+
+
+td#Results
+{
+    vertical-align:  top;
+}
+
+ul
+{
+   margin-bottom: 0px;
+}
+
+
+
+li.menu
+{
+  color: #f7f4f4;
+}
+
+.Content 
+{
+    margin-left: 20px;
+    font-size: 1em;
+    text-align: left;
+}
+
+div.pad
+{
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: yellow;
+    word-wrap: break-word;
+    white-space:  normal;
+    display: block;
+}
+.Message 
+{
+    margin-left: 20px;
+    margin-bottom: 1.2em;
+    font-size: 1em;
+    text-align: left;
+    color:  white;
+}
+
+.messagex
+{
+    margin-left: 20px;
+    margin-bottom: 1.2em;
+    font-size: 1em;
+    text-align: left;
+    color:  white;
+    display: none;
+}
+
+.ResultTitle 
+{
+    color:  white;
+    font-size: 1em;
+    font-weight:  bold;
+    text-align: Left;
+    padding:  10px;
+}
+
+.ResultText 
+{
+    color:  white;
+    margin-left: 20px;
+    margin-bottom:  0px;
+    font-size: .90em;
+    text-align: Left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.PageContainer
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div.leftmenu 
+{
+    font-size: 1.1em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    text-align: left;
+    color: #f7f4f4;
+    width: 100%; 
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    border-style: solid; 
+    border-width: 0px; 
+    border-color:  red; 
+    top: 0;
+    background-image: url('../images/sidebar.jpg');
+    background-size:100%;
+    float: left;
+}
+
+div.headmenu 
+{
+    font-size: 1.1em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    text-align: left;
+    color: #f7f4f4;
+    width: 100%; 
+    height: 50px; 
+    margin: 0px; 
+    padding: 0px; 
+    border-style: solid; 
+    border-width: 0px; 
+    border-color:  red; 
+    top: 0;
+    left:  0px;
+    background-image: url('../images/sidebar.jpg');
+    background-size:100%;
+    position: fixed;
+}
+
+div.formarea
+{
+    margin-left: 40px;
+    height:  315px;
+    width:  630px;
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:  #555;
+
+    overflow-y: scroll;
+    overflow-x: no-display;
+}
+div.datatable
+{
+    width: 100%; 
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    border-style: solid; 
+    border-width: 0px; 
+    border-color:  red; 
+    position: fixed;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    top: 50px;
+    left: 0px;
+}
+
+
+div.matrix
+{
+    width:  100%;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y:  auto;
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  yellow;
+    padding: 0;
+    margin: 0;
+}
+
+div.matrix1
+{
+    width:  207px;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  yellow;
+    padding: 0;
+    margin: 0;
+    background-image: url('../images/sidebar.jpg');
+    background-size:100%;
+}
+div.login
+{
+    background-image: url('../images/MasterPlanLogin.png');
+    background-size:100%;
+    box-sizing:border-box;
+    width:  425px;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y:  hidden;
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  red;
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right:  auto;
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;}
+
+div.message
+{
+    background-image: url('../images/MasterPlanLogin.png');
+    background-size:100%;
+    box-sizing:border-box;    
+    width:  425px;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y:  hidden;
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  red;
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right:  auto;
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+.dbButton
+{
+    width: 70px;
+    height: 36px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color:  white;
+    background-color:  #4084b9;
+    color:  white;
+    text-align:  center;
+}
+
+.menuButton
+{
+    width: 165px;
+    height: 36px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color:  white;
+    background-color:  #4084b9;
+    color:  white;
+    text-align:  center;
+}
+
+a:link, a:visited,
+a:hover {
+    color: #212020;
+ color: #f7f4f4;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+   font-weight: normal;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #212020;
+    margin-left: 0px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.4em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-weight:  normal;
+    color: #f7f4f4;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-weight:  normal;
+    color: #f7f4f4;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+
+/*   Μορφοποίηση πεδίων φίλτρων */
+input.filter, textarea.filter, select.filter {
+   border: 1px solid #555;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 1px;
+   padding-right:  1px;
+   padding: 0;
+   font-family:  "Segoe UI", Verdana, Helvetica, Sans-Serif;
+   font-size:  100%;
+   /*line-height: 0.6em;*/
+   text-align: left;
+   /*
+   width: 80%; 
+   background: #fff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+   -webkit-appearance: none;
+   -webkit-box-shadow: 1px 1px 1px #fff;
+   -webkit-border-radius: 0.5em;
+   */
+ }
+
+/*   Μορφοποίηση φορμών  */
+input, textarea, select {
+   border: 1px solid #555;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 10px;
+   padding-right:  10px;
+   font-family:  "Segoe UI", Verdana, Helvetica, Sans-Serif;
+   font-size: 14px;
+   line-height: 1.4em;
+   text-align: left;
+   /*
+   width: 80%; 
+   background: #fff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+   -webkit-appearance: none;
+   -webkit-box-shadow: 1px 1px 1px #fff;
+   -webkit-border-radius: 0.5em;
+   */
+ }
+
+
+select
+{
+    margin-top: 0px;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #4084b9;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;	 
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  red;
+}
+
+nav {
+    line-height:30px;
+    background-color:transparent;
+    height:100%;
+    width: 207px;
+    float: left;
+    padding: 0px;	
+    position: fixed;
+    top: 60px;
+    float: left;      
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  red;
+    padding: 0;
+    margin: 0;
+    background-image: url('../images/sidebar.jpg');
+    background-size:100%;
+}
+
+div.section {
+    width: -moz-calc(100% - 210px);
+    width: -webkit-calc(100% - 210px);
+    width: calc(100% - 210px);
+    height: -moz-calc(100% - 60px);
+    height: -webkit-calc(100% - 60px);
+    height: calc(100% - 60px);
+    float:left;
+    padding:0px;
+    position: fixed;
+    top: 60px;
+    left: 207px;	 
+    overflow-y: scroll;	 
+    overflow-x: scroll;
+    border-style:  solid;
+    border-width: 0px;
+    border-color:  red;
+}
+
+div.PageHeader
+{
+    top: 0; 
+    left: 0;  
+    background-color: #4084b9; 
+    border-style: solid; 
+    border-width:  0px; 
+    border-color:  red; 
+    height: 50px; 
+    padding-top: 10px;    
+}
+
+div.FormDialog {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 15%;
+    left: calc(100%/2 - 250px);
+    border-style: solid;
+    border-width: 0px;
+    border-color: red;
+    display: none;
+    background-color: #4084b9;
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+[hidden] { display: none; }

@@ -10,6 +10,6 @@ Album can be edited.
     a) Albums administration (manageset.php): Insertion of new album and update/deletion of existing album.
     b) Users administration (manageusers.php): Insertion of new user, users display, update of users' info.
     
-4) Album administration from user
+4) Album administration for user
     a) Insertion of new album (medianew.php – mediainsert.php).
     b) Album update (mediaedit.php - mediaupdate.php).

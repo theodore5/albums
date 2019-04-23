@@ -8,7 +8,7 @@ Album can be edited.
 
 3) Album/user administration (adminmenu.php): only for administrator user.
     a) Album administration (manageset.php): Insertion of new album and update/deletion of existing album.
-    b) User administration (manageusers.php): Insertion of new user, display of users, update of user's info.
+    b) User administration (manageusers.php): Insertion of new user, display of users, update of users' info.
     
 4) Album administration for user
     a) Insertion of new album (medianew.php – mediainsert.php).
